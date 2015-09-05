@@ -1,5 +1,5 @@
 ## Symisc Libcox - Cross Platform System Calls & Utilities
-http://libcox.net Version [1.7.0](http://libcox.net/downloads.html)
+[libcox.net](http://libcox.net) Version [1.7.0](http://libcox.net/downloads.html)
 
 *Note:* **For production build, please rely only on the amalgamation build-release available at the libcox download page [here](http://libcox.net/downloads.html).**
 
