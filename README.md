@@ -1,17 +1,17 @@
 ## Symisc Libcox - Cross Platform System Calls & Utilities
-[libcox.net](http://libcox.net) Version [1.7.0](http://libcox.net/downloads.html)
+[libcox.symisc.net](http://libcox.symisc.net) Version [1.7.0](http://libcox.symisc.net/downloads.html)
 
-*Note:* **For production build, please rely only on the amalgamation build-release available at the libcox download page [here](http://libcox.net/downloads.html).**
+*Note:* **For production build, please rely only on the amalgamation build-release available at the libcox download page [here](http://libcox.symisc.net/downloads.html).**
 
-Libcox is an ANSI-C Library which permit cross platform system calls and standard utilities among different operating systems via a system of [commands](http://libcox.net/cmd.html) similar to the standard UNIX one and backed by the native OS API (Refer to [Libcox architecture](http://libcox.net/arch.html)).
+Libcox is an ANSI-C Library which permit cross platform system calls and standard utilities among different operating systems via a system of [commands](http://libcox.symisc.net/cmd.html) similar to the standard UNIX one and backed by the native OS API (Refer to [Libcox architecture](http://libcox.symisc.net/arch.html)).
 
 Think of Libcox as an embedded shell to your application (without any external process execution) where you can perform your traditional system tasks such as listing directory entries, gathering file informations, interacting with the OS regardless of the underlying operating system. 
 
 *Libcox features includes:*
 
 * Cross platform system calls & utilities backed by native host OS API.
-* Built with over 145 [commands](http://libcox.net/cmd.html) similar to the standard UNIX one.
-* Libcox is [built-up on layers](http://libcox.net/arch.html) using a VFS approach.
+* Built with over 145 [commands](http://libcox.symisc.net/cmd.html) similar to the standard UNIX one.
+* Libcox is [built-up on layers](http://libcox.symisc.net/arch.html) using a VFS approach.
 * Libcox is a Self-Contained ANSI C library without dependency.
 * Thread safe and full re-entrant.
 * Simple, Clean and easy to use API.
@@ -20,21 +20,21 @@ Think of Libcox as an embedded shell to your application (without any external p
 ###Libcox Programming Interfaces
 
  Here is what you do to start experimenting with Libcox without having to do a lot of tedious reading and configuration.
-  Get a copy of the last public release of Libcox. Visit the [download page](http://libcox.net/downloads.html) for additional information. The following are Some C/C++ samples to start experimenting with:
-  * [libcox_intro.c](http://libcox.net/libcox_intro.c): Introduction to the command execution ([uname](http://libcox.net/cmd/uname.html), [getcwd](http://libcox.net/cmd/getcwd.html), [cd](http://libcox.net/cmd/cd.html), [mkdir](http://libcox.net/cmd/mkdir.html), etc.) API.
-  * [libcox_array.c](http://libcox.net/libcox_arrays.c): Working with arrays and the commands that deal with them ([ls](http://libcox.net/cmd/ls.html), [stat](http://libcox.net/cmd/stat.html), [glob](http://libcox.net/cmd/glob.html), etc.).
-  * [libcox_shell.c](http://libcox.net/libcox_shell.c): Libcox shell which let you execute [built-in commands](http://libcox.net/cmd.html) from your CLI.
+  Get a copy of the last public release of Libcox. Visit the [download page](http://libcox.symisc.net/downloads.html) for additional information. The following are Some C/C++ samples to start experimenting with:
+  * [libcox_intro.c](http://libcox.symisc.net/libcox_intro.c): Introduction to the command execution ([uname](http://libcox.symisc.net/cmd/uname.html), [getcwd](http://libcox.symisc.net/cmd/getcwd.html), [cd](http://libcox.symisc.net/cmd/cd.html), [mkdir](http://libcox.symisc.net/cmd/mkdir.html), etc.) API.
+  * [libcox_array.c](http://libcox.symisc.net/libcox_arrays.c): Working with arrays and the commands that deal with them ([ls](http://libcox.symisc.net/cmd/ls.html), [stat](http://libcox.symisc.net/cmd/stat.html), [glob](http://libcox.symisc.net/cmd/glob.html), etc.).
+  * [libcox_shell.c](http://libcox.symisc.net/libcox_shell.c): Libcox shell which let you execute [built-in commands](http://libcox.symisc.net/cmd.html) from your CLI.
   
 ####Usefull Links to start with
 
-* [Libcox in 3 Minutes or Less](http://libcox.net/intro.html)
-* [Built-in Commands](http://libcox.net/cmd.html)
-* [The Libcox Architecture](http://libcox.net/arch.html)
-* [Libcox API Introduction](http://libcox.net/api_intro.html)
-* [C/C++ API Reference Guide](http://libcox.net/docs.html)
-* [Download Page](http://libcox.net/downloads.html)
-* [Licensing Page](http://libcox.net/licensing.html)
-* [Online Support](http://libcox.net/support.html)
+* [Libcox in 3 Minutes or Less](http://libcox.symisc.net/intro.html)
+* [Built-in Commands](http://libcox.symisc.net/cmd.html)
+* [The Libcox Architecture](http://libcox.symisc.net/arch.html)
+* [Libcox API Introduction](http://libcox.symisc.net/api_intro.html)
+* [C/C++ API Reference Guide](http://libcox.symisc.net/docs.html)
+* [Download Page](http://libcox.symisc.net/downloads.html)
+* [Licensing Page](http://libcox.symisc.net/licensing.html)
+* [Online Support](http://libcox.symisc.net/support.html)
 
 Below is a simple C program that demonstrates how to use the Command Execution C/C++ interface to Libcox. 
 
